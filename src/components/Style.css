@@ -21,10 +21,10 @@
     color: rgb(246, 116, 68);
   }
   
-  .box:hover {
+  /* .box:hover {
     transform: translateY(-20px);
     box-shadow: 0 0 20px 0 rgb(0, 0, 0, 0.3);
-  }
+  } */
 
   .img
   {
