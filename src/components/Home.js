@@ -7,7 +7,6 @@ const Homedata = homedata.homemenu;
 const ApiData = apidata;
 export default function Home() {
   const categories = Object.keys(ApiData.Categories);
-
   return (
     <div>
       {categories.map((records, i) => {
