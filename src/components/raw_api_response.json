@@ -1,6 +1,7 @@
 {
   "Categories": {
     "Breakfast": {
+      "Image": "https://kj1bcdn.b-cdn.net/media/82588/eggs-again-sir.jpg?width=1200",
       "Poha": {
         "Description": "This is item description given by restaurant owner",
         "Likes": "123",
@@ -15,6 +16,7 @@
       }
     },
     "Starters": {
+      "Image": "https://saffronrestaurant.co.in/wp-content/uploads/2022/03/Starter1.jpg",
       "Chicken Bites": {
         "Description": "This is item description given by restaurant owner",
         "Likes": "55",
@@ -35,6 +37,8 @@
       }
     },
     "Chinese": {
+      "Image": "https://ik.imagekit.io/awwybhhmo/satellite_images/chinese/beyondmenu/hero/2.jpg?tr=w-3840,q-50",
+
       "Chicken Hakka Noodles": {
         "Description": "This is item description given by restaurant owner",
         "Likes": "525",
@@ -55,6 +59,8 @@
       }
     },
     "Main Course": {
+      "Image": "https://www.archanaskitchen.com/images/archanaskitchen/Indian_Vegetables_Gravy/Paneer_Butter_Masala_Recipe.jpg",
+
       "Chicken Masala": {
         "Description": "This is item description given by restaurant owner",
         "Likes": "13",
@@ -75,6 +81,8 @@
       }
     },
     "Ice-creams": {
+      "Image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-381352,resizemode-1,msid-84939728/magazines/panache/from-the-us-russia-to-india-an-ice-cream-bowl-has-a-long-political-history.jpg",
+
       "Chocolate": {
         "Description": "This is item description given by restaurant owner",
         "Likes": "12",
