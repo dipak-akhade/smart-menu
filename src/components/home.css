@@ -1,0 +1,132 @@
+/* style="background: linear-gradient(27deg, rgba(235, 245, 251,0.5) 50%, rgba(133, 190, 225,0.5) 60%); padding: 30px;" */
+
+
+
+.bodycolor{
+  
+    /* background-image: url("backgroundimg.jpg"); */
+    /* background-image: url("bg.jpg"); */
+    /* background-image: url("bg1.jpg"); */
+    background-image: url("https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/about-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1; 
+    padding: 20px 0px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    
+  }
+  
+  .card {
+    margin: 20px;
+    width: 400px;
+   
+  }
+
+  .boxshadow {
+   
+    /* box-shadow: 2px 5px 4px 5px #dfd4d4; */
+    border: 5px solid orange;
+    border-radius: 20px;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .card {
+      width: 200px;
+    }
+  }
+ 
+  
+  
+  /* CategoryItem style */
+
+
+  .category {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    border: 2px solid orange;
+    background-color: orange;
+    color: white;
+    display: inline-block; 
+    padding: 10px; 
+    border-radius: 10px;
+
+  }
+
+
+   /* 3 */
+
+   /* .menu-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  
+  .menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .menu-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-item-image {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .menu-item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .menu-item-details {
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  .menu-item-title {
+    font-size: 24px;
+    margin: 0 0 10px;
+  }
+  
+  .menu-item-description {
+    margin: 0 0 20px;
+  }
+  
+  .menu-item-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu-item-likes,
+  .menu-item-price {
+    font-size: 18px;
+    margin: 0;
+  }
+   */

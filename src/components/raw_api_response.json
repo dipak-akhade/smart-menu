@@ -1,0 +1,117 @@
+{
+  "Categories": {
+    "Breakfast": {
+      "Image": "https://kj1bcdn.b-cdn.net/media/82588/eggs-again-sir.jpg?width=1200",
+      "Poha": {
+        "Description": "This is item description given by restaurant owner",
+        "Likes": "123",
+        "Image": "https://i0.wp.com/vegecravings.com/wp-content/uploads/2018/11/Indori-Poha-Recipe-Step-By-Step-Instructions.jpg?resize=1024%2C919&quality=65&strip=all&ssl=1",
+        "Price": 30
+      },
+      "Upma": {
+        "Description": " It is aditionally go well with mint chutney. The paneer, though tender, has a crisp singe on the surface.",
+        "Likes": "35",
+        "Image": "https://thumbs.dreamstime.com/b/upma-made-samolina-rava-upma-most-famous-south-indian-breakfast-item-which-beautifully-arranged-plate-banana-216111370.jpg",
+        "Price": 35
+      }
+    },
+    "Starters": {
+      "Image": "https://saffronrestaurant.co.in/wp-content/uploads/2022/03/Starter1.jpg",
+      "Chicken Bites": {
+        "Description": "This is item description given by restaurant owner",
+        "Likes": "55",
+        "Image": "https://thumbs.dreamstime.com/z/crispy-fried-breaded-chicken-bites-crispy-fried-breaded-chicken-bites-sauce-over-blue-stone-table-211008261.jpg",
+        "Price": 90
+      },
+      "Gobi Tikka": {
+        "Description": "This is item description given by restaurant owner",
+        "Likes": "9",
+        "Image": "https://i0.wp.com/vegecravings.com/wp-content/uploads/2017/03/tandoori-gobi-recipe-step-by-step-instructions-11.jpg?fit=3302%2C2160&quality=65&strip=all&ssl=1",
+        "Price": 50
+      },
+      "Mashroom Tikka ": {
+        "Description": "This is item description given by restaurant owner",
+        "Likes": "87",
+        "Image": "https://i.pinimg.com/originals/78/fe/06/78fe06d364c2fdfb68a9d95bff8b54e6.jpg",
+        "Price": 60
+      }
+    },
+    "Chinese": {
+      "Image": "https://ik.imagekit.io/awwybhhmo/satellite_images/chinese/beyondmenu/hero/2.jpg?tr=w-3840,q-50",
+
+      "Chicken Hakka Noodles": {
+        "Description": "This is item description given by restaurant owner",
+        "Likes": "525",
+        "Image": "image url",
+        "Price": 150
+      },
+      "Veg Schezwan Noodles ": {
+        "Description": "This is item description given by restaurant owner",
+        "Likes": "39",
+        "Image": "image url",
+        "Price": 140
+      },
+      "Veg Hakka Noodles": {
+        "Description": "This is item description given by restaurant owner",
+        "Likes": "90",
+        "Image": "image url",
+        "Price": 130
+      }
+    },
+    "Main Course": {
+      "Image": "https://www.archanaskitchen.com/images/archanaskitchen/Indian_Vegetables_Gravy/Paneer_Butter_Masala_Recipe.jpg",
+
+      "Chicken Masala": {
+        "Description": "This is item description given by restaurant owner",
+        "Likes": "13",
+        "Image": "image url",
+        "Price": 340
+      },
+      "Paneer Tikka": {
+        "Description": "Chunks of paneer, a type of fresh cheese, are marinated in spices and are then arranged on a stick with capsicums (bell peppers), onions and tomatoes. These sticks are grilled in a tandoor and the dish is thereafter served hot, seasoned with lemon juice and chaat masala.[8] It is sometimes accompanied by salad or mint chutney. Tikka dishes traditionally go well with mint chutney. The paneer, though tender, has a crisp singe on the surface.",
+        "Likes": "34",
+        "Image": "image url",
+        "Price": 250
+      },
+      "Paneer Tikka Masala": {
+        "Description": "This is item description given by restaurant owner",
+        "Likes": "10",
+        "Image": "image url",
+        "Price": 260
+      }
+    },
+    "Ice-creams": {
+      "Image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-381352,resizemode-1,msid-84939728/magazines/panache/from-the-us-russia-to-india-an-ice-cream-bowl-has-a-long-political-history.jpg",
+
+      "Chocolate": {
+        "Description": "This is item description given by restaurant owner",
+        "Likes": "12",
+        "Image": "image url",
+        "Price": 100
+      },
+      "Vanilla": {
+        "Description": "This is item description given by restaurant owner",
+        "Likes": "11",
+        "Image": "image url",
+        "Price": 100
+      },
+      "Creamy Milk": {
+        "Description": "This is item description given by restaurant owner",
+        "Likes": "13",
+        "Image": "image url",
+        "Price": 100
+      }
+    }
+  },
+  "Restaurant Details": {
+    "Insta Profile link": "https://instaprofileurl.com",
+    "Owner Contact": "+91 5007 227 997",
+    "Restaurant Address": "Restaurant address",
+    "Owner Name": "Mr. Owner Surname",
+    "Restaurant website": "https://www.myrestaurant.com",
+    "Owner Email ": "owner@gmail.com",
+    "Facebook Profile link": "https://facebookprofileurl.com"
+  },
+  "rid": "unique_restaurant_name"
+}
+
