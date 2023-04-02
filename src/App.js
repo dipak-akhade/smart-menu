@@ -5,6 +5,8 @@ import AboutUs from "./components/AboutUs";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { useEffect, userEffect, useState } from "react";
 import jwt_decode from "jwt-decode";
+import { PoweroffOutlined } from "@ant-design/icons";
+import { Button, Space } from "antd";
 
 function App() {
   const [user, setUser] = useState({});
@@ -44,7 +46,13 @@ function App() {
       {Object.keys(user).length != 0 && (
         <div>
           <div>
-            <button onClick={(e) => handleSignout(e)}>Sign Out</button>
+            <Button
+              type="primary"
+              icon={<PoweroffOutlined />}
+              onClick={(e) => handleSignout(e)}
+            >
+              Sign Out
+            </Button>
             <p>Hello {user.name}</p>
           </div>
           <div>
