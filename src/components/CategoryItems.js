@@ -12,7 +12,7 @@ export default function CategoryItems(props) {
     const categoryData = apidata.Categories[category];
     return (
       <div className='bodycolor'>
-        <h2 className='category'>{category}</h2>
+        {/* <h2 className='category'>{category}</h2> */}
         {Object.keys(categoryData).map((itemKey, i) => {
           const item = categoryData[itemKey];
           return (

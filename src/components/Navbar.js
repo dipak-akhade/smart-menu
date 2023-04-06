@@ -6,9 +6,24 @@ import {
     Route,
     Link
   } from "react-router-dom";
-  
+import { PoweroffOutlined } from "@ant-design/icons";
+import { Button } from "antd";
 
-export default function Navbar() {
+  
+export default function Navbar(props) {
+  const { user, handleSignout } = props;
+  
+  const handleLogout = () => {
+    localStorage.removeItem("user");
+    window.location.reload();
+    // document.getElementById("buttonDiv").hidden = false;
+  };
+
+  const handleClick = () => {
+    handleLogout();
+    handleSignout();
+  };
+
     return (
         <div>
           
@@ -27,9 +42,32 @@ export default function Navbar() {
                       <a className="nav-link" href="/AboutUs">About Us</a>
                       </li>
                         
-                      
+                   {/* <li>{this.handleSignout}</li>    */}
                   </ul>
-                 
+                  <ul className="navbar-nav ms-auto">
+                      {Object.keys(user).length !== 0 ? (
+                        <>
+                          <li className="nav-item">
+                            <span className="nav-link">{`Hello, ${user.name}`}</span>
+                          </li>
+                          <li className="nav-item">
+                            <Button
+                              type="primary"
+                              icon={<PoweroffOutlined />}
+                              onClick={handleClick}
+                            >
+                              Sign Out
+                            </Button>
+                          </li>
+                        </>
+                      ) : (
+                        <li className="nav-item">
+                          <a className="nav-link" href="#">
+                            Sign In
+                          </a>
+                        </li>
+                      )}
+            </ul>
                 </div>
               </div>
           </nav>
