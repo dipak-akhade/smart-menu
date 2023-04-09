@@ -12,6 +12,7 @@ import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 
 function App() {
+  const [phone, setPhone] = useState("");
   const [user, setUser] = useState({});
   function handleCallbackResponse(response) {
     console.log("Encoded JWT token: ", response.credential);
@@ -48,7 +49,7 @@ function App() {
   }, []);
 
   function handleContinue() {
-    // console.log(phone);
+    console.log(phone);
   }
   return (
     <Router>
@@ -73,7 +74,8 @@ function App() {
                     <form action="">
                       <div className="p-4">
                         <div className="mb-3">
-                          <PhoneInputGfg style={{ width: "100%" }} />
+                          {/* <PhoneInputGfg style={{ width: "100%" }} /> */}
+                          <PhoneInputGfg phone={phone} setPhone={setPhone} style={{ width: "100%" }} />
                         </div>
                         <div className="d-grid">
                           <Button
